@@ -1,0 +1,5 @@
+@import "mixin";
+
+.main {
+    @include max-width-wrapper;
+}

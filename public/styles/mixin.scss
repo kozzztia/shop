@@ -1,0 +1,17 @@
+@import "variable";
+
+@mixin main-box($color){
+  position: relative;
+  width : 100%;
+  height: auto;
+  background: $color;
+  min-height: 100px;
+  padding: 10px;
+}
+
+@mixin max-width-wrapper{
+  position: relative;
+  max-width: 1700px;
+  margin: 0 auto;
+  border: 1px solid #FFF;
+}

@@ -1,0 +1,14 @@
+@import "mixin";
+
+.layoutHeader{
+  @include main-box(red);
+}
+.layoutMain{
+  @include main-box(blue);
+}
+.layoutFooter{
+  @include main-box(orange);
+}
+.layoutNavigation{
+  @include main-box(green);
+}

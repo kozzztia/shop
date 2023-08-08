@@ -1,0 +1,11 @@
+@import "../../public/styles/mixin";
+
+.header{
+  @include max-width-wrapper;
+}
+.footer{
+  @include max-width-wrapper;
+}
+.navigation{
+  @include max-width-wrapper;
+}

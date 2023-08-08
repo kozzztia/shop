@@ -1,0 +1,27 @@
+@import "mixin";
+
+:root {
+
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-size: $main-font-size;
+  color: $main-color;
+}
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+a {
+
+  text-decoration: none;
+}
+
